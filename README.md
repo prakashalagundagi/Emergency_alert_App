@@ -1,2 +1,0 @@
-# Emergency_alert_App
-Emergency_alert_App

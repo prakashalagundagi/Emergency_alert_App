@@ -1,0 +1,29 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="250" fill="#DC2626" stroke="#991B1B" stroke-width="8"/>
+  
+  <!-- Inner White Circle -->
+  <circle cx="256" cy="256" r="200" fill="white"/>
+  
+  <!-- Emergency Shield -->
+  <path d="M256 80 L340 120 L340 220 Q340 320 256 380 Q172 320 172 220 L172 120 Z" 
+        fill="#DC2626" stroke="#991B1B" stroke-width="4"/>
+  
+  <!-- SOS Text -->
+  <text x="256" y="200" font-family="Arial, sans-serif" font-size="48" font-weight="bold" 
+        text-anchor="middle" fill="white">SOS</text>
+  
+  <!-- Emergency Cross -->
+  <g transform="translate(256, 280)">
+    <!-- Vertical bar -->
+    <rect x="-15" y="-40" width="30" height="80" fill="white" rx="4"/>
+    <!-- Horizontal bar -->
+    <rect x="-40" y="-15" width="80" height="30" fill="white" rx="4"/>
+  </g>
+  
+  <!-- Pulse waves around the shield -->
+  <g opacity="0.6">
+    <circle cx="256" cy="256" r="230" fill="none" stroke="white" stroke-width="3" stroke-dasharray="10,5"/>
+    <circle cx="256" cy="256" r="210" fill="none" stroke="white" stroke-width="2" stroke-dasharray="5,10"/>
+  </g>
+</svg>
